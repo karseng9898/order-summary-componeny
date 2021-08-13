@@ -34,14 +34,16 @@ const Card = () => {
                     <p className="paragraph ">$59.99/year</p>
                   </div>
                 </div>
-                <button className="underline paragraph">Change</button>
+                <button className="underline text-xs text-dark-blue active:text-desaturated-blue">
+                  Change
+                </button>
               </div>
-              <button className="bg-bright-blue text-very-pale-blue w-full py-2 rounded-lg shadow-2xl transform active:scale-95">
+              <button className="bg-bright-blue text-very-pale-blue w-full py-2 rounded-lg shadow-2xl transform active:bg-desaturated-blue active:scale-95">
                 Proceed to Payment
               </button>
-              <Button type="text" className="text-dark-blue">
+              <button className=" text-desaturated-blue active:text-dark-blue">
                 Cancel Order
-              </Button>
+              </button>
             </div>
           </div>
         </div>
